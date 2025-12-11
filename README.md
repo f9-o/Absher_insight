@@ -1,16 +1,38 @@
-# absher_insight
+# Absher Insight 🛡️ | المحفظة الذكية والتنبؤ الاستباقي
 
-A new Flutter project.
+**Absher Insight** هو نموذج أولي (MVP) يهدف إلى تحويل تجربة المستخدم في منصة أبشر من "رد الفعل" إلى "الاستباقية"، وضمان توفر الهوية رقمياً بشكل آمن في وضع عدم الاتصال بالإنترنت.
 
-## Getting Started
+##  الميزات الجوهرية (Core Features)
 
-This project is a starting point for a Flutter application.
+| الميزة | القيمة المضافة |
+| :--- | :--- |
+| **المساعد الاستباقي (Predictive Assistant)** | يستخدم خوارزميات تحديد الأولويات لتنبيه المستخدم بأهم 3 وثائق معرضة للانتهاء قريباً. |
+| **المحفظة الآمنة (Offline Wallet)** | يتيح الوصول للوثائق الرقمية (الهوية، الرخصة) والتحقق منها حتى في وضع عدم الاتصال (وضع الطيران). |
+| **الرمز الديناميكي (Dynamic QR)** | يتجدد تلقائياً كل 30 ثانية لمنع تصوير الشاشة (Screenshot Risk) ورفع مستوى الأمان. |
+| **حماية الخصوصية (Privacy Blur)** | تُحجب البيانات تلقائياً، وتُعرض بوضوح فقط عند اللمس المطول (Long Press) من قبل المستخدم. |
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ التقنيات المستخدمة (Tech Stack)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **Framework:** Flutter (Dart)
+* **الأمن والمصادقة:** Local Auth (Biometrics), Image Filter
+* **البيانات:** Simulated Heuristic Algorithms (للتنبؤ)، QR Flutter.
+* **الواجهة:** Google Fonts (Cairo), Animate_do.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  دليل التشغيل والنشر (Setup / Deployment)
+
+### 1. الإعداد الأولي
+1.  Clone the repo: `git clone [Your-Repo-Link]`
+2.  Install dependencies: `flutter pub get`
+
+### 2. الإعداد الخاص بالنظام (Deployment)
+
+| النظام | الخطوات الخاصة (مهمة!) |
+| :--- | :--- |
+| **Windows / Android** | شغل المحاكي (Emulator) أولاً. ثم شغل التطبيق عبر: `flutter run` |
+| **Mac / iOS** | :** ادخل مجلد `ios` ونفذ الأمر التالي لتجهيز المكتبات الأصلية:<br>`cd ios`<br>`pod install` |
+
+### 3. التشغيل النهائي (Run)
+* نفذ الأمر: `flutter run`
+
+---
+*هذا المشروع هو نموذج أولي مطور لفعالية هاكاثون أبشر.*
