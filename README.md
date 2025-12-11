@@ -21,7 +21,7 @@
 ##  دليل التشغيل والنشر (Setup / Deployment)
 
 ### 1. الإعداد الأولي
-1.  Clone the repo: `git clone [Your-Repo-Link]`
+1.  Clone the repo: `git clone https://github.com/f9-o/Absher_insight.git`
 2.  Install dependencies: `flutter pub get`
 
 ### 2. الإعداد الخاص بالنظام (Deployment)
